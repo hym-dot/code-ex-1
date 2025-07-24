@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
-  <header>
+  <header class="">
+    <div class="scroll-top-btn">scroll top</div>
     <div class="inner">
       <h1 class="title">
         <a href="#">
@@ -18,18 +20,25 @@
       </h1>
       <nav>
         <ul>
-          <li><a href="#">menu1</a></li>
-          <li><a href="#">menu2</a></li>
-          <li><a href="#">menu3</a></li>
-          <li><a href="#">menu4</a></li>
+          <li><a href="#s01"class="menu-link">menu1</a></li>
+          <li><a href="#s02"class="menu-link">menu2</a></li>
+          <li><a href="#s03"class="menu-link">menu3</a></li>
+          <li><a href="#s04"class="menu-link">menu4</a></li>
         </ul>
       </nav>
+      <a href="#" class="nav-btn">
+
+        <span>0</span>
+        <span>1</span>
+        <span>2</span>
+      </a>
+
     </div>
   </header>
   <section id="s01">
     <div class="inner">
       <div class="t-wrap">
-        <h2>section title</h2>
+        <h2>SECTION TITLE</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur.
         </p>
@@ -49,13 +58,13 @@
       <!-- display:flex; flex-wrap:wrap; -->
       <ul class="s02-list">
         <li class="yellow-border">
-    <h3>title</h3>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </li>
-  <li>
-  <h3>title</h3>
-  <p>Lorem ipsum dolor sit amet.</p>
-</li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
         <li>
           <h3>title</h3>
           <p>Lorem ipsum dolor sit amet.</p>
@@ -90,8 +99,9 @@
         </li>
       </ul>
     </div>
+  </section>
 
-    <section id="s03">
+  <section id="s03">
     <!-- max-width:none; -->
     <div class="inner">
       <div class="t-wrap">
@@ -121,7 +131,8 @@
           <a href="#">
             <h4>title</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quas qui veniam reprehenderit assumenda sapiente!
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quas qui veniam reprehenderit assumenda
+              sapiente!
             </p>
           </a>
         </li>
@@ -129,7 +140,8 @@
           <a href="#">
             <h4>title</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quas qui veniam reprehenderit assumenda sapiente!
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quas qui veniam reprehenderit assumenda
+              sapiente!
             </p>
           </a>
         </li>
@@ -137,7 +149,8 @@
           <a href="#">
             <h4>title</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quas qui veniam reprehenderit assumenda sapiente!
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quas qui veniam reprehenderit assumenda
+              sapiente!
             </p>
           </a>
         </li>
@@ -145,14 +158,37 @@
           <a href="#">
             <h4>title</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quas qui veniam reprehenderit assumenda sapiente!
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat quas qui veniam reprehenderit assumenda
+              sapiente!
             </p>
           </a>
         </li>
       </ul>
     </div>
   </section>
-
+  <footer>
+    <div class="inner">
+      <h3>logo</h3>
+      <ul class="foot-list">
+        <li>
+          <a href="#">
+            <img src="./img/Item.png" alt="icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/Item (1).png" alt="icon">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/Item (2).png" alt="icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+<script src = "./js/script.js"></script>
 </body>
 
 </html>
